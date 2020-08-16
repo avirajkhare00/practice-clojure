@@ -3,4 +3,6 @@
 (defn -main
   "I can say 'Hello World'."
   []
-  (println "Hello world!"))
+  (println "Simple calculator")
+  (doseq [ln (line-seq (java.io.BufferedReader. *in*))]
+   (println ln)))
