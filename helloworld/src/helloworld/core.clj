@@ -42,4 +42,6 @@
   (println (subtract 10 5))
   (println (multiply 10 6))
   (println (condtn 11))
-  (println (condtn 5)))
+  (println (condtn 5))
+  (map (fn [full_name] (println(full_name))
+     ["Darth Vader" "Mr. Magoo"])))
